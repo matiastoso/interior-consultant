@@ -1,2 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@400;700&family=Montserrat:wght@300;500;600;700&display=swap");
+body {
+  background: #181719;
+  color: #ffffff;
+}
+
+.aliza-card {
+  width: 340px;
+  position: relative;
+  right: 6%;
+  bottom: -15%;
+  color: #ffffff;
+  background: #181719;
+}
+
+.aliza-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.interior-designer {
+  margin-top: -.5rem;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -4,6 +4,76 @@ body {
   color: #ffffff;
 }
 
+.navbar-brand {
+  font-family: 'Crimson Pro';
+  font-weight: 200;
+  font-size: 14px;
+  padding: .3rem;
+  border: 1px solid #dddddd;
+  color: #dddddd;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.navbar-brand:hover {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+nav a:first-child {
+  font-weight: 700;
+}
+
+nav a {
+  font-family: 'Montserrat';
+  position: relative;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #ffffff;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+nav a:hover::after {
+  width: 100%;
+  right: auto;
+  left: 0;
+}
+
+h1 {
+  font-family: 'Lora';
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.principal-text {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 24px;
+  color: #dddddd;
+}
+
+span {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  -webkit-transform: all .3s;
+          transform: all .3s;
+  cursor: pointer;
+}
+
+span:hover {
+  text-decoration: underline;
+}
+
 .aliza-card {
   width: 340px;
   position: relative;
@@ -19,6 +89,26 @@ body {
 }
 
 .interior-designer {
-  margin-top: -.5rem;
+  margin-top: -.3rem;
+}
+
+.px-3 h3 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.px-3 p {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 12px;
+  color: #828282;
+}
+
+article p {
+  font-family: 'Lora';
+  font-weight: 700;
+  font-size: 24px;
+  color: #dddddd;
 }
 /*# sourceMappingURL=styles.css.map */

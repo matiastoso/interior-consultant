@@ -1,0 +1,95 @@
+// RESPONSIVE
+@media (max-width:768px) {
+    .justify-content-end {
+        display: none;
+    }
+
+    h1 {
+        margin-top: -1.5rem;
+        font-size: 36px;
+    }
+
+    .principal-text {
+        font-size: 14px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+
+    span {
+        font-size: 14px;
+    }
+
+    // CARD
+    .px-3 h3 {
+        font-size: 12px;
+    }
+
+    .px-3 p {
+        font-size: 10px;
+    }
+
+    article p {
+        font-size: 18px;
+    }
+
+    .menu {
+        display: block;
+        z-index: 100;
+        cursor: pointer;
+    }
+
+    .show {
+        background-color: $color-primary;
+        display: block;
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        right: 0;
+        padding-top: 50%;
+        bottom: 0;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .aliza-card {
+        opacity: 95%;
+        right: 0;
+        bottom: -5%;
+        height: 100px;
+        width: 270px;
+    }
+    
+    .nav {
+        text-align: center;
+        align-items: center;
+        z-index: 80;
+
+        .nav-link {
+            margin-left: 3%;
+            font-size: 21px;
+            z-index: 80;
+            margin-top: 6%;
+            margin-bottom: 6%;
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                right: 25%;
+                width: 0%;
+                height: 3px;
+                background-color: $white;
+                transition: .6s;
+            }
+        
+            &:hover::after {
+                width: 40%;
+                right: auto;
+                left: 30%;
+            }
+        }
+    }
+}
